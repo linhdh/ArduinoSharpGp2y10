@@ -12,7 +12,7 @@
 int measurePin = A0;
 int ledPin = 2;
 
-GP2YDustSensor dustSensor(GP2YDustSensorType::GP2Y1014AU0F, ledPin, measurePin);
+GP2YDustSensor dustSensor(GP2YDustSensorType::GP2Y1010AU0F, ledPin, measurePin);
 
 void setup() {
   // put your setup code here, to run once:
